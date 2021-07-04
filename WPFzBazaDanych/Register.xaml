@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Register" Height="200" Width="400">
     <Grid>
-        <TextBox x:Name="UsernameText" HorizontalAlignment="Center" Margin="0,30,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="UsernameText" HorizontalAlignment="Center" Margin="0,30,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="UsernameText_TextChanged"/>
         <TextBox x:Name="PasswordText" HorizontalAlignment="Center" Margin="0,70,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="PasswordTextConfirm" HorizontalAlignment="Center" Margin="0,102,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Register" HorizontalAlignment="Center" Margin="0,140,0,0" VerticalAlignment="Top" Click="Register_Click"/>

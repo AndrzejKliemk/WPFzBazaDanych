@@ -24,8 +24,12 @@ namespace WPFzBazaDanych
         public MainWindow()
         {
             InitializeComponent();
+            UserName.Content = ((LoginScreen)Application.Current.MainWindow).UsernameText.Text;
         }
 
-        
+        private void Usernamebox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

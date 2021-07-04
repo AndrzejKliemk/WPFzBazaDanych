@@ -39,6 +39,7 @@ namespace WPFzBazaDanych
                 if (count == 1)
                 {
                     MainWindow window = new MainWindow();
+
                     window.Show();
                     this.Close();
                 }

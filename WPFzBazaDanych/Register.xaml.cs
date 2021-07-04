@@ -89,5 +89,10 @@ namespace WPFzBazaDanych
                 MessageBox.Show("Both passwords need to be same.");
             }
         }
+
+        private void UsernameText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
